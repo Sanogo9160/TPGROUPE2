@@ -1,0 +1,17 @@
+pour la configuration de git :
+	- git config --global user.name "DouyonDev"
+	- git config --global user.email abdoulayedouon.ad@gmail.com
+pour l'initialisation du depot :
+	- git init
+pour le clonage du depot créé par le LEAD :
+	- git clone https://github.com/Sanogo9160/TPGROUPE2.git
+pour la liaison du depot local au depot distant :
+	- git remote add origin https://github.com/Sanogo9160/TPGROUPE2.git
+pour la creation d'une branche :
+	- git branch AD
+pour indexer les fichiers modifiés de la nouvelle branche en locale :
+	- git add .
+pour confirmer la modification avec un message a la nouvelle branche locale :
+	- git commit -m "Fichier_de_presentation"
+pour envoyer la nouvelle branche et les modifications au depot distant :
+	- git push -u origin AD
